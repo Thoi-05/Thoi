@@ -1,0 +1,125 @@
+       *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(greeny.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+           background-color: rgb(16, 91, 39);
+            justify-items: center;
+            margin: 12px;
+            position: fixed;
+            width: 100%;
+           
+        }
+        nav ul{
+            
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            overflow: hidden;
+            padding: 10px;
+            
+        }
+        nav li{
+             float: left;
+             padding: 12px;
+        }
+        nav a{
+            background-color: rgb(204, 195, 183);
+            text-decoration: none;
+            
+            padding: 10px;
+            border-radius: 20px;
+           
+        }
+        nav a:hover{
+            background-color: rgb(182, 204, 195);
+        }
+        header h1{
+            padding-left: 50px;
+            padding-top: 20px;
+
+        }
+        .container-one{
+            display: grid;
+            grid-template-columns: 120px 120px 120px;
+            justify-content: right;
+            padding: 5px;
+            gap: 20px;
+        }
+        .item-one{
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        .container-two{
+            
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            
+        }
+        .item-two {
+            
+            padding-top: 50px;
+            padding-left: 100px;
+            
+           
+        }
+        .item-two img{
+            width: 400px;
+            height: 400px;
+            padding-top: 100px;
+        }
+        .item-two button{
+           padding: 10px 50px;
+           border-radius: 20px;
+           background-color: bisque;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .item-two img{
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            
+        }
+        .item-two img:hover{
+            transition: 2s ease;
+            transform: scale(1.3);
+        }
+        
+        .container-three{
+         
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 50px;
+          column-gap: 10px;
+          padding-top: 10px
+          
+        }
+        
+        .container-three img{
+            width: 230px;
+            height: 200px;
+        }
+        .container-three img:hover{
+            transition: 2s ease;
+            transform: scaleX(1.3);
+        }
+        
+        footer{
+            background-color: rgb(231, 240, 240);
+            padding: 50px;
+            text-align: center;
+            transition: background-color 1s,color 1s;
+
+        }
+        footer:hover{
+            background-color: darkseagreen;
+        }

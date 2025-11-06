@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            cursor: pointer;
+            
+        }
+        nav{
+           background-color: rgb(16, 91, 39);
+            justify-items: center;
+            margin: 12px;
+            position: fixed;
+            width: 100%;
+           
+        }
+        nav ul{
+            
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            overflow: hidden;
+            padding: 10px;
+            
+        }
+        nav li{
+             float: left;
+             padding: 12px;
+        }
+        nav a{
+            background-color: rgb(204, 195, 183);
+            text-decoration: none;
+            
+            padding: 10px;
+            border-radius: 20px;
+           
+        }
+        nav a:hover{
+            background-color: rgb(182, 204, 195);
+        }
+        
+        .sec-one{
+             display: flex;
+             background-color: rgb(191, 222, 222);
+             align-items: center;
+             transition: background-color 1s, color 1s;    
+        }
+        .sec-one:hover{
+            background-color: aquamarine;
+        }
+        .plant{
+            margin: 20px;
+            padding: 50px;
+            
+        }
+        .plant img{
+            width: 400px;
+            height: 300px;
+            
+            
+        }
+        .plant p{
+            font-size: 20px;
+            color: rgb(48, 75, 99);
+        }
+        .plant button{
+            padding: 5px 30px;
+            border-radius: 20px;
+            border: transparent;
+            background-color: rgb(125, 174, 158);
+            font-size: 15px;
+            transition: background-color 1s, color 1s;   
+
+        }
+        .plant button:hover{
+            background-color: yellowgreen;
+        }
+
+        .sec-two{
+            text-align: center;
+            background-color: rgb(252, 250, 247);
+            padding: 30px;
+            transition: background-color 1s, color 1s;   
+        }
+        .sec-two:hover{
+            background-color: antiquewhite;
+        }
+        .sec-two h1{
+            font-size: 40px;
+            color: green;
+
+        }
+        .sec-two p{
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(39, 172, 128);
+        }
+        .sec-four{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+           
+        }
+        .sec-five{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .img-row1{
+            margin: 5px;
+            position: relative;  
+        }
+        .img-row1 p{
+            position: absolute;
+            bottom: 15px;
+            left: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(34, 167, 22);
+        }
+        .img-row1 img{
+            border-radius: 10px;
+            width: 300px;
+            height: 200px;
+        }
+        .img-row1 img:hover{
+            transition: 2s ease;
+            transform: scale(1.3);
+        }
+        .img-row2{
+            margin: 5px;
+            position: relative;
+        }
+        .img-row2 p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: rgb(52, 201, 81);
+
+        }
+        .img-row2 img{
+            border-radius: 10px;
+             width: 300px;
+            height: 200px;   
+        }
+        .img-row2 img:hover{
+            transition: 2s ease;
+            transform: scaleX(1.3);
+        }
+        footer{
+            background-color: rgb(231, 240, 240);
+            padding: 50px;
+            text-align: center;
+            transition: background-color 1s,color 1s;
+
+        }
+        footer:hover{
+            background-color: darkseagreen;
+        }
+        
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wrap1.html">Latest Product</a></li>
+            <li><a href="wrap2.html">Product Details</a></li>
+        </ul>
+    </nav><br><br><br><br>
+    <main>
+        <section class="sec-one">
+            <div class="plant">
+                <h1>Our Plants</h1><br>
+                <p>Bring a touch of nature into your 
+                    home with our beautiful collection of plants</p><br>
+                <button type="submit">Shop Now </button>
+            </div>
+            <div class="plant">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.PBtA_KlGA4lwhuuAXbUpgQHaE7?pid=Api&P=0&h=180" >
+            </div>
+        </section>
+        
+        <section class="sec-two">
+            <h1 >Popular Collections</h1><br>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Aliquam laudantium consequatur minima et a nam inventore sed, aperiam exercitationem,
+                 eligendi aut molestiae similique necessitatibus ad! Numquam quisquam</p>
+        </section>
+        <section class="sec-four">
+            <div class="img-row1">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.5fDklDjgQo_BjLnqRyqaRAHaE8?pid=Api&P=0&h=180">
+                <p>Desert  Plant</p>
+            </div>
+            <div class="img-row1">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.4kls_AM5SZuFMCTnx9k8-wHaEz?pid=Api&P=0&h=180">
+                <p>Small plant</p></div>
+            
+        </section>
+        <section class="sec-five">
+            <div class="img-row2">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.WYZFBftbuuSTIQVrWhnlqwHaDP?pid=Api&P=0&h=180">
+                <p>Indoor Plant</p>
+            </div>
+            <div class="img-row2">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.tTpSFhAENaeDkSL4F0tvUwHaFJ?pid=Api&P=0&h=180">
+                <p>Outdoor Plant</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>Best Sellers</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam minima totam sed repellendus hic.</p>
+        <p>© All Rights Reserved 2025 DevDept</p>
+    </footer>
+
+</body>
+</html>

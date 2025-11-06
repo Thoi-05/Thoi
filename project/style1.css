@@ -1,0 +1,116 @@
+       *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(rgb(234, 226, 227) ,green);
+        }
+        nav{
+           background-color: rgb(16, 91, 39);
+            justify-items: center;
+            margin: 12px;
+            position: fixed;
+            width: 100%;
+           
+        }
+        nav ul{
+            
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            overflow: hidden;
+            padding: 10px;
+            
+        }
+        nav li{
+             float: left;
+             padding: 12px;
+        }
+        nav a{
+            background-color: rgb(204, 195, 183);
+            text-decoration: none;
+            
+            padding: 10px;
+            border-radius: 20px;
+           
+        }
+       nav a:hover{
+            background-color: rgb(182, 204, 195);
+        }
+        
+        .container-one{
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            column-gap: 20px;
+        }
+        .icon{
+            font-size: 40px;
+           
+        }
+        .icon:hover{
+            filter: grayscale(1);
+            transform: scale(1.30);
+        }
+        
+        header button{
+             width: 550px;
+             border-radius: 20px;
+             border: transparent;
+             background-color: beige;
+        }
+        header button:hover{
+            filter: grayscale(1);
+            transform: scale(1.03);
+        }
+        
+        
+        .container-two{
+            background-color: ;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+            gap: 10px;
+            justify-content: center;
+            justify-items: center;
+            
+        }
+        .item-two{
+           padding: 5px; 
+          
+        }
+        .item-two img{
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 4px 7px 7px 0px rgb(193, 181, 181);
+            cursor: pointer;
+            transition: 500ms;
+        }
+        .item-two img:hover{
+            filter: grayscale(1);
+            transform: scale(1.30);
+        }
+        .item-two h4{
+            text-align: center;
+        }
+        .item-two p{
+            text-align: center;
+        }
+        .item-two h3 {
+            text-align: center;
+            line-height: 2px;
+        }
+        
+        footer{
+            background-color: rgb(231, 240, 240);
+            padding: 50px;
+            text-align: center;
+            transition: background-color 1s,color 1s;
+
+        }
+        footer:hover{
+            background-color: darkseagreen;
+        }
